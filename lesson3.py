@@ -1,6 +1,6 @@
 # print('Hello Worlds')
 # print('Hello Worlds'*"er")
-
+print('Hello, world!'+'Hello, world!'+'Hello, world!')
 
 # # =============================================
 # # Соблюдение РЕР8. Неправильние отступи
