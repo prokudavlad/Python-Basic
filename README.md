@@ -26,3 +26,14 @@ To remove the password from a protected PDF file, you must use the decrypt() met
 * 5.1 This code opens a protected PDF file named "file_name-protected.pdf", checks if it is password protected, and if so, enters the password "your_password" to open it. The code then creates a PDF Writer object and adds each page of the PDF file to it. It then removes the password using the encrypt() method, which specifies the password as an empty string. Finally, the code saves the modified PDF file with the name "file_name-unprotected.pdf".
 
 (https://www.geeksforgeeks.org/python-strings-decode-method/)
+
+___
+6. Extract audio track from video.
+    6.1 To extract an audio track from an mp4 video file, you need to install the ffmpeg library, which allows you to work with video and audio files in Python.
+    6.2 Installing the ffmpeg library:
+
+___!pip install ffmpeg-python___
+
+(https://pypi.org/project/ffmpeg-python/)
+
+    6.3 This script uses ffmpeg to read the input video file, extract the audio track and save it to the output mp3 file. Simple path to source video file and path to write audio file into input_file and output_file variables respectively and load the script.
