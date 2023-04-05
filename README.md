@@ -28,12 +28,27 @@ To remove the password from a protected PDF file, you must use the decrypt() met
 (https://www.geeksforgeeks.org/python-strings-decode-method/)
 
 ___
+
 6. Extract audio track from video.
     6.1 To extract an audio track from an mp4 video file, you need to install the ffmpeg library, which allows you to work with video and audio files in Python.
     6.2 Installing the ffmpeg library:
-
-___!pip install ffmpeg-python___
+    !pip install ffmpeg-python
 
 (https://pypi.org/project/ffmpeg-python/)
-
     6.3 This script uses ffmpeg to read the input video file, extract the audio track and save it to the output mp3 file. Simple path to source video file and path to write audio file into input_file and output_file variables respectively and load the script.
+___
+
+7. Sending SMS to a phone using Python.To send an SMS to a phone using Python, you can use the Twilio library. To start using Twilio, you need to perform the following steps:
+
+(https://console.twilio.com/)
+
+    7.1 Register on the Twilio website to get an ACCOUNT SID and AUTH TOKEN. These data are necessary for authentication when sending SMS.
+    7.2 Install the Twilio library for Python using pip: pip install twilio.
+
+(https://pypi.org/project/twilio/)
+
+    7.3 Import Twilio and create a Client object with ACCOUNT SID and AUTH TOKEN.
+    7.4 Use the messages.create() method of the Client object to send an SMS.
+
+8. In this example, replace 'your_account_sid', 'your_auth_token', 'your_twilio_number' and 'recipient_phone_number' with your actual values. 'your_twilio_number' is the number you received after registering on the Twilio website. 'recipient_phone_number' is the phone number you want to send an SMS to, in the format +1234567890.
+___
