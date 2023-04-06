@@ -46,13 +46,13 @@ ___
 
 [channel link](https://console.twilio.com/)
 
-    * 7.1 Register on the Twilio website to get an ACCOUNT SID and AUTH TOKEN. These data are necessary for authentication when sending SMS.
-    * 7.2 Install the Twilio library for Python using pip: pip install twilio.
+ * 7.1 Register on the Twilio website to get an ACCOUNT SID and AUTH TOKEN. These data are necessary for authentication when sending SMS.
+ * 7.2 Install the Twilio library for Python using pip: pip install twilio.
 
 [channel link](https://pypi.org/project/twilio/)
 
-    * 7.3 Import Twilio and create a Client object with ACCOUNT SID and AUTH TOKEN.
-    * 7.4 Use the messages.create() method of the Client object to send an SMS.
+ * 7.3 Import Twilio and create a Client object with ACCOUNT SID and AUTH TOKEN.
+ * 7.4 Use the messages.create() method of the Client object to send an SMS.
 
 > In this example, replace 'your_account_sid', 'your_auth_token', 'your_twilio_number' and 'recipient_phone_number' with your actual values. 'your_twilio_number' is the number you received after registering on the Twilio website. 'recipient_phone_number' is the phone number you want to send an SMS to, in the format +1234567890.
 ___
