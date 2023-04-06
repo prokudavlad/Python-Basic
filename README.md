@@ -3,7 +3,7 @@ ___
 1. Creating a password for a PDF file, with the installation of the PyPDF2 library.
 2. You can install it using pip:
  
-__pip install PyPDF2__
+   __pip install PyPDF2__
 
 3. To accomplish this task, you can use this code to create a PDF file.
 
@@ -16,7 +16,7 @@ ___
 
 4. If an error occurs :
  
-  __PyPDF2.errors.DeprecationError: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead__
+   __PyPDF2.errors.DeprecationError: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead__
 
     * 4.1 Using PdfFileReader in PyPDF2 is no longer science fiction as of version 3.0.0. Instead, you must use PdfReader.
     * 4.2 This code opens a PDF file named "file_name.pdf", adds each page to a PDF Writer object, sets the password "your_password" and saves a protected file named "file_name-protected.pdf".
@@ -33,8 +33,8 @@ To remove the password from a protected PDF file, you must use the decrypt() met
 ___
 
 6. Extract audio track from video.
-    * 6.1 To extract an audio track from an mp4 video file, you need to install the ffmpeg library, which allows you to work with video and audio files in Python.
-    * 6.2 Installing the ffmpeg library:
+ * 6.1 To extract an audio track from an mp4 video file, you need to install the ffmpeg library, which allows you to work with video and audio files in Python.
+ * 6.2 Installing the ffmpeg library:
 
     ___!pip install ffmpeg-python___
 
@@ -48,7 +48,7 @@ ___
 [channel link](https://console.twilio.com/)
 
     * 7.1 Register on the Twilio website to get an ACCOUNT SID and AUTH TOKEN. These data are necessary for authentication when sending SMS.
-    * 7.2 Install the Twilio library for Python using pip: pip install twilio.
+    * 7.2 Install the Twilio library for Python using pip: ___pip install twilio___.
 
 [channel link](https://pypi.org/project/twilio/)
 
